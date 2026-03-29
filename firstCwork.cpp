@@ -190,7 +190,7 @@ void all_core(char role);
 	if (file == NULL) {
 		system("cls");
 		perror("图书馆没书辣");
-		all_core('3');
+		all_core('1');
 	}
 	int id;
 	char title[100];
